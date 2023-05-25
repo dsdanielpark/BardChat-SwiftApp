@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2CE9C522A2010A900E7FCBD /* BardChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C512A2010A900E7FCBD /* BardChatApp.swift */; };
+		A2CE9C542A2010A900E7FCBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C532A2010A900E7FCBD /* ContentView.swift */; };
+		A2CE9C562A2010AA00E7FCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CE9C552A2010AA00E7FCBD /* Assets.xcassets */; };
+		A2CE9C642A2010AA00E7FCBD /* BardChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C632A2010AA00E7FCBD /* BardChatTests.swift */; };
+		A2CE9C6E2A2010AA00E7FCBD /* BardChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C6D2A2010AA00E7FCBD /* BardChatUITests.swift */; };
+		A2CE9C702A2010AA00E7FCBD /* BardChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C6F2A2010AA00E7FCBD /* BardChatUITestsLaunchTests.swift */; };
+		A2CE9C7E2A2011DB00E7FCBD /* BardAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A2CE9C7D2A2011DB00E7FCBD /* BardAPI */; };
+		A2CE9C862A2015AD00E7FCBD /* BardChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C852A2015AD00E7FCBD /* BardChatView.swift */; };
+		A2CE9C882A20166600E7FCBD /* BardChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C872A20166600E7FCBD /* BardChatViewModel.swift */; };
+		A2CE9C8A2A20171800E7FCBD /* Bard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C892A20171800E7FCBD /* Bard.swift */; };
+		A2CE9C8D2A20178600E7FCBD /* Array+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C8C2A20178600E7FCBD /* Array+JSON.swift */; };
+		A2CE9C8F2A2017A800E7FCBD /* Optional+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C8E2A2017A800E7FCBD /* Optional+JSON.swift */; };
+		A2CE9C912A2017DB00E7FCBD /* Any+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE9C902A2017DB00E7FCBD /* Any+JSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CE9C602A2010AA00E7FCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CE9C462A2010A900E7FCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CE9C4D2A2010A900E7FCBD;
+			remoteInfo = BardChat;
+		};
+		A2CE9C6A2A2010AA00E7FCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CE9C462A2010A900E7FCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CE9C4D2A2010A900E7FCBD;
+			remoteInfo = BardChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2CE9C4E2A2010A900E7FCBD /* BardChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BardChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CE9C512A2010A900E7FCBD /* BardChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatApp.swift; sourceTree = "<group>"; };
+		A2CE9C532A2010A900E7FCBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2CE9C552A2010AA00E7FCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CE9C572A2010AA00E7FCBD /* BardChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BardChat.entitlements; sourceTree = "<group>"; };
+		A2CE9C5F2A2010AA00E7FCBD /* BardChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BardChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CE9C632A2010AA00E7FCBD /* BardChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatTests.swift; sourceTree = "<group>"; };
+		A2CE9C692A2010AA00E7FCBD /* BardChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BardChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CE9C6D2A2010AA00E7FCBD /* BardChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatUITests.swift; sourceTree = "<group>"; };
+		A2CE9C6F2A2010AA00E7FCBD /* BardChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2CE9C852A2015AD00E7FCBD /* BardChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatView.swift; sourceTree = "<group>"; };
+		A2CE9C872A20166600E7FCBD /* BardChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardChatViewModel.swift; sourceTree = "<group>"; };
+		A2CE9C892A20171800E7FCBD /* Bard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bard.swift; sourceTree = "<group>"; };
+		A2CE9C8C2A20178600E7FCBD /* Array+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+JSON.swift"; sourceTree = "<group>"; };
+		A2CE9C8E2A2017A800E7FCBD /* Optional+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+JSON.swift"; sourceTree = "<group>"; };
+		A2CE9C902A2017DB00E7FCBD /* Any+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Any+JSON.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CE9C4B2A2010A900E7FCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE9C7E2A2011DB00E7FCBD /* BardAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C5C2A2010AA00E7FCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C662A2010AA00E7FCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2CE9C452A2010A900E7FCBD = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C502A2010A900E7FCBD /* BardChat */,
+				A2CE9C622A2010AA00E7FCBD /* BardChatTests */,
+				A2CE9C6C2A2010AA00E7FCBD /* BardChatUITests */,
+				A2CE9C4F2A2010A900E7FCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CE9C4F2A2010A900E7FCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C4E2A2010A900E7FCBD /* BardChat.app */,
+				A2CE9C5F2A2010AA00E7FCBD /* BardChatTests.xctest */,
+				A2CE9C692A2010AA00E7FCBD /* BardChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CE9C502A2010A900E7FCBD /* BardChat */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C8B2A20175900E7FCBD /* Extensions */,
+				A2CE9C512A2010A900E7FCBD /* BardChatApp.swift */,
+				A2CE9C872A20166600E7FCBD /* BardChatViewModel.swift */,
+				A2CE9C532A2010A900E7FCBD /* ContentView.swift */,
+				A2CE9C852A2015AD00E7FCBD /* BardChatView.swift */,
+				A2CE9C552A2010AA00E7FCBD /* Assets.xcassets */,
+				A2CE9C572A2010AA00E7FCBD /* BardChat.entitlements */,
+				A2CE9C892A20171800E7FCBD /* Bard.swift */,
+			);
+			path = BardChat;
+			sourceTree = "<group>";
+		};
+		A2CE9C622A2010AA00E7FCBD /* BardChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C632A2010AA00E7FCBD /* BardChatTests.swift */,
+			);
+			path = BardChatTests;
+			sourceTree = "<group>";
+		};
+		A2CE9C6C2A2010AA00E7FCBD /* BardChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C6D2A2010AA00E7FCBD /* BardChatUITests.swift */,
+				A2CE9C6F2A2010AA00E7FCBD /* BardChatUITestsLaunchTests.swift */,
+			);
+			path = BardChatUITests;
+			sourceTree = "<group>";
+		};
+		A2CE9C8B2A20175900E7FCBD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE9C8C2A20178600E7FCBD /* Array+JSON.swift */,
+				A2CE9C8E2A2017A800E7FCBD /* Optional+JSON.swift */,
+				A2CE9C902A2017DB00E7FCBD /* Any+JSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CE9C4D2A2010A900E7FCBD /* BardChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CE9C732A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChat" */;
+			buildPhases = (
+				A2CE9C4A2A2010A900E7FCBD /* Sources */,
+				A2CE9C4B2A2010A900E7FCBD /* Frameworks */,
+				A2CE9C4C2A2010A900E7FCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BardChat;
+			packageProductDependencies = (
+				A2CE9C7D2A2011DB00E7FCBD /* BardAPI */,
+			);
+			productName = BardChat;
+			productReference = A2CE9C4E2A2010A900E7FCBD /* BardChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2CE9C5E2A2010AA00E7FCBD /* BardChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CE9C762A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChatTests" */;
+			buildPhases = (
+				A2CE9C5B2A2010AA00E7FCBD /* Sources */,
+				A2CE9C5C2A2010AA00E7FCBD /* Frameworks */,
+				A2CE9C5D2A2010AA00E7FCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CE9C612A2010AA00E7FCBD /* PBXTargetDependency */,
+			);
+			name = BardChatTests;
+			productName = BardChatTests;
+			productReference = A2CE9C5F2A2010AA00E7FCBD /* BardChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2CE9C682A2010AA00E7FCBD /* BardChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CE9C792A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChatUITests" */;
+			buildPhases = (
+				A2CE9C652A2010AA00E7FCBD /* Sources */,
+				A2CE9C662A2010AA00E7FCBD /* Frameworks */,
+				A2CE9C672A2010AA00E7FCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CE9C6B2A2010AA00E7FCBD /* PBXTargetDependency */,
+			);
+			name = BardChatUITests;
+			productName = BardChatUITests;
+			productReference = A2CE9C692A2010AA00E7FCBD /* BardChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CE9C462A2010A900E7FCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A2CE9C4D2A2010A900E7FCBD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A2CE9C5E2A2010AA00E7FCBD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A2CE9C4D2A2010A900E7FCBD;
+					};
+					A2CE9C682A2010AA00E7FCBD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A2CE9C4D2A2010A900E7FCBD;
+					};
+				};
+			};
+			buildConfigurationList = A2CE9C492A2010A900E7FCBD /* Build configuration list for PBXProject "BardChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CE9C452A2010A900E7FCBD;
+			packageReferences = (
+				A2CE9C7C2A2011DB00E7FCBD /* XCRemoteSwiftPackageReference "Bard-API-for-Swift" */,
+			);
+			productRefGroup = A2CE9C4F2A2010A900E7FCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CE9C4D2A2010A900E7FCBD /* BardChat */,
+				A2CE9C5E2A2010AA00E7FCBD /* BardChatTests */,
+				A2CE9C682A2010AA00E7FCBD /* BardChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CE9C4C2A2010A900E7FCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE9C562A2010AA00E7FCBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C5D2A2010AA00E7FCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C672A2010AA00E7FCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CE9C4A2A2010A900E7FCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE9C862A2015AD00E7FCBD /* BardChatView.swift in Sources */,
+				A2CE9C8F2A2017A800E7FCBD /* Optional+JSON.swift in Sources */,
+				A2CE9C8D2A20178600E7FCBD /* Array+JSON.swift in Sources */,
+				A2CE9C542A2010A900E7FCBD /* ContentView.swift in Sources */,
+				A2CE9C8A2A20171800E7FCBD /* Bard.swift in Sources */,
+				A2CE9C522A2010A900E7FCBD /* BardChatApp.swift in Sources */,
+				A2CE9C912A2017DB00E7FCBD /* Any+JSON.swift in Sources */,
+				A2CE9C882A20166600E7FCBD /* BardChatViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C5B2A2010AA00E7FCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE9C642A2010AA00E7FCBD /* BardChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CE9C652A2010AA00E7FCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE9C702A2010AA00E7FCBD /* BardChatUITestsLaunchTests.swift in Sources */,
+				A2CE9C6E2A2010AA00E7FCBD /* BardChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2CE9C612A2010AA00E7FCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CE9C4D2A2010A900E7FCBD /* BardChat */;
+			targetProxy = A2CE9C602A2010AA00E7FCBD /* PBXContainerItemProxy */;
+		};
+		A2CE9C6B2A2010AA00E7FCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CE9C4D2A2010A900E7FCBD /* BardChat */;
+			targetProxy = A2CE9C6A2A2010AA00E7FCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2CE9C712A2010AA00E7FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2CE9C722A2010AA00E7FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2CE9C742A2010AA00E7FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BardChat/BardChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BardChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CE9C752A2010AA00E7FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BardChat/BardChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BardChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2CE9C772A2010AA00E7FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BardChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BardChat";
+			};
+			name = Debug;
+		};
+		A2CE9C782A2010AA00E7FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BardChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BardChat";
+			};
+			name = Release;
+		};
+		A2CE9C7A2A2010AA00E7FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BardChat;
+			};
+			name = Debug;
+		};
+		A2CE9C7B2A2010AA00E7FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38333Y3TB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.BardChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BardChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CE9C492A2010A900E7FCBD /* Build configuration list for PBXProject "BardChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CE9C712A2010AA00E7FCBD /* Debug */,
+				A2CE9C722A2010AA00E7FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CE9C732A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CE9C742A2010AA00E7FCBD /* Debug */,
+				A2CE9C752A2010AA00E7FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CE9C762A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CE9C772A2010AA00E7FCBD /* Debug */,
+				A2CE9C782A2010AA00E7FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CE9C792A2010AA00E7FCBD /* Build configuration list for PBXNativeTarget "BardChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CE9C7A2A2010AA00E7FCBD /* Debug */,
+				A2CE9C7B2A2010AA00E7FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2CE9C7C2A2011DB00E7FCBD /* XCRemoteSwiftPackageReference "Bard-API-for-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dsdanielpark/Bard-API-for-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2CE9C7D2A2011DB00E7FCBD /* BardAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2CE9C7C2A2011DB00E7FCBD /* XCRemoteSwiftPackageReference "Bard-API-for-Swift" */;
+			productName = BardAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A2CE9C462A2010A900E7FCBD /* Project object */;
+}
