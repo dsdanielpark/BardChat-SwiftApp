@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bard-api-for-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dsdanielpark/Bard-API-for-Swift",
+      "state" : {
+        "revision" : "5ad83155731252d7656f6b572c5b4fde319780ca",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
